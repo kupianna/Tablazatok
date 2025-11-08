@@ -1,5 +1,6 @@
 table, tr, td, th {
     border: 1px, solid, black
+    
 }
 table{
     border-collapse: collapse
@@ -12,14 +13,12 @@ td, th {
 tr{
     background-color: beige;
 }
-tr:nth-child(2){
-    background-color: brown;
-}
+
 tr:nth-child{
 
 }
 th{
-    background-color: yellow;
+    background-color: rgb(29, 192, 91);
 }
 caption{
     padding-bottom: 16px;
