@@ -1,27 +1,50 @@
 
 table, tr, td, th {
-    border: 1px, solid, black
+    border: 1px solid black;
     
 }
 table{
-    border-collapse: collapse
+    border-collapse: collapse;
+    width: 40%;
+    margin: auto;
+    border-collapse: collapse;
 }
 td, th {
-    padding=16px
-    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
 }
 
+td:nth-child(4), th:nth-child(4){
+    padding:2px;
+}
 tr{
     background-color: beige;
 }
 
 tr:nth-child{
+    background-color: f2f2f2;
 
 }
-th{
-    background-color: rgb(29, 192, 91);
+th:nth-child(1){
+    background-color: rgb(255, 87, 34);
+}
+th:nth-child(2){
+    background-color: rgb(228, 112, 17);
+}
+th:nth-child(3){
+    background-color: rgb(247, 166, 18);
+}
+th:nth-child(4){
+    background-color: rgb(241, 227, 23);
+}
+th:nth-child(5){
+    background-color: rgb(226, 243, 72);
 }
 caption{
     padding-bottom: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
     
 }
