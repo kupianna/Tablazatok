@@ -37,13 +37,13 @@ tbody tr:nth-child(odd) td:nth-of-type(odd) {
 tbody tr td.black-king {
   background-color: #fff; 
   color: #000;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 tbody tr td.white-king {
   background-color: #000; 
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
 }
 tbody tr th {
   background: none;
